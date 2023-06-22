@@ -1,0 +1,27 @@
+body{
+    background: url("./img/bg.webp") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.for{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.for1{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: .5s;
+    backdrop-filter: blur(1px);
+}
